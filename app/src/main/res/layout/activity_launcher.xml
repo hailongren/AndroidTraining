@@ -30,6 +30,13 @@
             android:text="Runtime Permission"
             />
 
+        <Button
+            android:id="@+id/btn_share_simple_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share Simple Data"
+            />
+
     </LinearLayout>
 
 </ScrollView>
