@@ -72,6 +72,8 @@
         </activity>
         <activity android:name=".ShareActionProviderActivity">
         </activity>
+        <activity android:name=".ShareFileActivity">
+        </activity>
     </application>
 
 </manifest>

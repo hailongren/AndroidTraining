@@ -3,5 +3,9 @@
     <external-path
         name="my_images"
         path="/"/>
+    <files-path
+        name="private_files"
+        path="/"
+        />
 
 </paths>

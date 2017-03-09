@@ -37,6 +37,13 @@
             android:text="Share Simple Data"
             />
 
+        <Button
+            android:id="@+id/btn_share_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share File"
+            />
+
     </LinearLayout>
 
 </ScrollView>
