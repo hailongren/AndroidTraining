@@ -26,6 +26,8 @@ public class LauncherActivity extends Activity {
     Button btnShareSimpleData;
     @BindView(R.id.btn_share_file)
     Button btnShareFile;
+    @BindView(R.id.btn_transition)
+    Button btnTransition;
 
     private static final int REQUEST_EXTERNAL_STORAGE = 1;
 
@@ -101,4 +103,11 @@ public class LauncherActivity extends Activity {
         Intent intent = new Intent(this, ShareFileActivity.class);
         startActivity(intent);
     }
+
+    @OnClick(R.id.btn_transition)
+    void transitionClick() {
+        Intent intent = new Intent(this, TransitionActivity.class);
+        startActivity(intent);
+    }
+
 }
